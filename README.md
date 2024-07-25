@@ -7,6 +7,8 @@ Horrible Horoscope tells you about your day with the aspect of the negatives of 
 - Download [Ollama](https://ollama.com/download) to easly run an LLM to infrence from.
 - Open Terminal or CMD and type `ollama run qwen2:1.5b` to download the model.
 - You can use any model, this is just mainly for speed purposes.
+- Make sure that `horoscope.py` and `config.py` are in the same directory.
+- Run `horoscope.py`
   
 ## HOW IT WORKS
 - `horoscope.py` uses the `config.py` to pull a random attribute from the sign chosen.
