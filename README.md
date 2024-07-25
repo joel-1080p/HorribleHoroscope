@@ -1,5 +1,6 @@
 # Horrible Horoscope
 
+![IMG_2006 (1)](https://github.com/user-attachments/assets/c7bbf353-4dfb-455a-8742-71768d969a0c)
 
 Horrible Horoscope tells you about your day with the aspect of the negatives of your sign.
 
