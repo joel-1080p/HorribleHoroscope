@@ -7,13 +7,14 @@ Horrible Horoscope tells you about your day with the aspect of the negatives of 
 - Download [Ollama](https://ollama.com/download) to easly run an LLM to infrence from.
 - Open Terminal or CMD and type `ollama run qwen2:1.5b` to download the model.
 - You can use any model, this is just mainly for speed purposes.
+- Make sure to pip install ollama.
 - Make sure that `horoscope.py` and `config.py` are in the same directory.
 - Run `horoscope.py`
   
 ## HOW IT WORKS
 - `horoscope.py` uses the `config.py` to pull a random attribute from the sign chosen.
-- This attriibute will be added to the prompt being fed into the model.
-- EXAMPLE : The script chose this for a Leo 'can come across as overly proud and boastful, believing they are superior to others.'
+- This attribute will be added to the prompt being fed into the model.
+- EXAMPLE : The script chose this for a Leo "can come across as overly proud and boastful, believing they are superior to others."
 - The full prompt will then be `Create a very short, vague, and negative second-person narrative about a person who can come across as overly proud and boastful, believing they are superior to others. Never use the words "me", "I", or "my". Be Sarcastic and negative. Start with "Today you will"`
 - The model will then create the horoscope to be displayed.
 
