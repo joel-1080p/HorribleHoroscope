@@ -22,6 +22,11 @@ Horrible Horoscope: Get a hilariously twisted take on your daily horoscope by re
 ## HOW I USE IT
 - I use it in my portfolio website as part of the react/flask backend. [Website](http://38.125.229.163:3000/horrible-horoscope)
 
+## KNOWN BUGS
+- Instead of referring to you, the reader, it mentions another person with the horoscope you chose. It will say you will meet this person instead of this person being you.
+This can be fixed by a bigger model, but at the cost of run time.
+
+
 ## Requirements
 
 -   [Python](https://www.python.org) \>= 2.7, 3.4+
