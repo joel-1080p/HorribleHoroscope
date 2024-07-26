@@ -2,7 +2,7 @@
 
 ![IMG_2006 (1)](https://github.com/user-attachments/assets/c7bbf353-4dfb-455a-8742-71768d969a0c)
 
-Horrible Horoscope: Ever wondered what would happen if the universe woke up on the wrong side of the bed? This app flips your sunny horoscope upside down, giving you a sneak peek into the darker, snarkier side of your sign's destiny. Because why should optimism have all the fun?
+Horrible Horoscope: Get a hilariously twisted take on your daily horoscope by revealing the snarky, negative side of your sign.
 
 ## RUNNING HORRIBLE HOROSCOPE
 - Download [Ollama](https://ollama.com/download) to easly run an LLM to infrence from.
