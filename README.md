@@ -5,11 +5,11 @@
 Horrible Horoscope: Get a hilariously twisted take on your daily horoscope by revealing the snarky, negative side of your sign.
 
 ## RUNNING HORRIBLE HOROSCOPE
-- Download [Ollama](https://ollama.com/download) to easly run an LLM to infrence from.
+- Download [Ollama](https://ollama.com/download) to easily run an LLM to infrence from.
 - Open Terminal or CMD and type `ollama run qwen2:1.5b` to download the model.
 - You can use any model, this is just mainly for speed purposes.
 - Make sure to pip install ollama.
-- Make sure that `horoscope.py` and `config.py` are in the same directory.
+- Ensure both `horoscope.py` and `config.py` are in the same directory.
 - Run `horoscope.py`
   
 ## HOW IT WORKS
@@ -24,7 +24,7 @@ Horrible Horoscope: Get a hilariously twisted take on your daily horoscope by re
 
 ## KNOWN BUGS
 - Instead of referring to you, the reader, it mentions another person with the horoscope you chose. It will say you will meet this person instead of this person being you.
-This can be fixed by a bigger model, but at the cost of run time.
+- This can be fixed by a bigger model, but at the cost of run time.
 
 
 ## Requirements
