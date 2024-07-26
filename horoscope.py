@@ -6,8 +6,10 @@ from horoscope import config
 
 ##########################
 ##########################
-#
-def set_up_prompt(sign):
+# Based on the sign given by the user
+# This will pick a random attribute from the config file.
+# Returns the full prompt as a string. 
+def set_up_prompt(sign: str) -> str:
     context = {
         'Aries' : config.aries,
         'Taurus' : config.taurus,
@@ -25,7 +27,7 @@ def set_up_prompt(sign):
 
     random_context = random.choice(context)
 
-    prompt = f'Create a very short, vague, and negative second-person narrative about a person who {random_context}. Never use the words "me", "I", or "my". Be Sarcastic and negative. Start with "Today you will".'
+    prompt = f'Create a very short, vague, and negative second-person narrative about a person who {random_context} Never use the words "me", "I", or "my". Be Sarcastic and negative. Start with "Today you will".'
 
     return prompt
 
@@ -33,8 +35,10 @@ def set_up_prompt(sign):
 
 ##########################
 ##########################
-#
-def run_model_and_print(prompt):
+# Given a prompt, it will make an inference
+# With selected LLM model.
+# Returns LLM response as a string.
+def run_llm(prompt: str) -> str:
     input_model = 'qwen2:1.5b'
 
     response = ollama.chat(model=input_model, messages=[
@@ -50,10 +54,14 @@ def run_model_and_print(prompt):
 
 ##########################
 ##########################
-#
-def main(sign: str):
+# Given the sign as a string,
+# It will pick a random attribute for that sign,
+# run it against an LLM and return a JSON response.
+def main(sign: str) -> json:
     prompt = set_up_prompt(sign)
-    text = run_model_and_print(prompt)
+    text = run_llm(prompt)
+
+    # Returns model response with escape sequences stripped.
     return json.dumps({"text":text.strip()})
 
 
