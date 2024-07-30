@@ -29,8 +29,8 @@ Horrible Horoscope: Get a hilariously twisted take on your daily horoscope by re
 
 ## Requirements
 
--   [Python](https://www.python.org) \>= 2.7, 3.4+
--   [Flask](https://flask.palletsprojects.com/en/3.0.x/) \>= 3.0.3
+-   [Python](https://www.python.org) \>= 2.7, 3.11
+-   [Ollama](https://pypi.org/project/ollama/) \>= 0.3.1
 
 ### P.S.
 
