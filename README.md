@@ -6,7 +6,7 @@ Horrible Horoscope: Get a hilariously twisted take on your daily horoscope by re
 
 ## RUNNING HORRIBLE HOROSCOPE
 - Download [Ollama](https://ollama.com/download) to easily run an LLM to infrence from.
-- Open Terminal or CMD and type `ollama run qwen2:1.5b` to download the model.
+- Open Terminal or CMD and type `ollama run qwen2:7b` to download the model.
 - You can use any model, this is just mainly for speed purposes.
 - Make sure to pip install ollama.
 - Ensure both `horoscope.py` and `config.py` are in the same directory.
